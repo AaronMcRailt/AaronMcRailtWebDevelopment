@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    float: right;
+}
+
+section {
+    border: 2px solid black;
+    background-color: ##d9d9d9;
+    float: left;
+}
+
+
+#chicken {
+    background-color: #f28888;
+}
+
+#beef {
+    background-color: #8a0101;
+    color: #ffffff;
+}
+
+#sushi {
+    background-color: #ccc07a;
+}
