@@ -1,23 +1,60 @@
 * {
     box-sizing: border-box;
     font-family: cursive;
+    padding: 0px;
+    margin: 0px;
 }
 
 h1 {
     width: 100%;
     text-align: center;
+    font-weight: bold;
+    font-size: 40px;
 }
 
-h2 {
+h3 {
     float: right;
+    width: 45%;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    margin-bottom: 10px;
+    border-bottom: black 4px solid;
+    border-left: black 4px solid;
+    font-weight: bold;
 }
 
 section {
-    border: 2px solid black;
-    background-color: ##d9d9d9;
     float: left;
+    width: 33.33%;
 }
 
+article {
+    border: 4px solid black;
+    background-color: #d9d9d9;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    clear:right;
+    text-align: left;
+    margin: 2%;
+    font-weight: bold;
+}
+
+
+/* Menu heading */
+ 
+#headingwrap {
+    margin: 60px 0px 80px 0px;
+}
+
+
+
+
+
+/* subheadings */
 
 #chicken {
     background-color: #f28888;
