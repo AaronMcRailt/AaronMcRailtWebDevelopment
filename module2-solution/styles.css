@@ -13,51 +13,34 @@ h1 {
 }
 
 h3 {
-    float: right;
     width: 45%;
     text-align: center;
     padding: 5px 0px 5px 0px;
-    margin-bottom: 10px;
-    border-bottom: black 4px solid;
-    border-left: black 4px solid;
+    border-bottom: black 1px solid;
+    border-left: black 1px solid;
     font-weight: bold;
+    position: absolute;
+    left: 55%;
 }
 
-section {
-    float: left;
-    width: 33.33%;
-}
 
 article {
-    border: 4px solid black;
+    border: 1px solid black;
     background-color: #d9d9d9;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
 }
 
 p {
-    clear:right;
     text-align: left;
-    margin: 2%;
+    margin: 50px 2% 2% 2%;
     font-weight: bold;
 }
 
-
-/* Menu heading */
  
-#headingwrap {
-    margin: 60px 0px 80px 0px;
-}
-
-
-
-
-
 /* subheadings */
 
 #chicken {
-    background-color: #f28888;
+    background-color: #f59595;
 }
 
 #beef {
@@ -66,5 +49,146 @@ p {
 }
 
 #sushi {
-    background-color: #ccc07a;
+    background-color: #f6ebb2;
+}
+
+
+/* Responsive settings */
+
+@media (min-width: 992px) {
+
+    #headingwrap {
+        margin: 60px 0px 80px 0px;
+    }
+
+    #col1 {
+        width: 33.33%;
+        float: left;
+    }
+
+    #cont1 {
+        width: 88%;
+        margin-left: 9%;
+        margin-right: 3%;
+    }
+
+
+    #col2 {
+        width: 33.33%;
+        float: left;
+    }
+
+    #cont2 {
+        width: 88%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #col3 {
+        width: 33.33%;
+        float: left;
+    }
+
+    #cont3 {
+        width: 88%;
+        margin-left: 3%;
+        margin-right: 9%;
+    }
+
+
+}
+
+
+@media (max-width: 992px) {
+
+    #headingwrap {
+        margin: 40px 0px 40px 0px;
+    }
+
+    #col1 {
+        width: 50%;
+        float: left;
+    }
+
+    #cont1 {
+        width: 94%;
+        margin-left: 4%;
+        margin-right: 2%;
+    }
+
+
+    #col2 {
+        width: 50%;
+        float: left;
+    }
+
+    #cont2 {
+        width: 94%;
+        margin-left: 2%;
+        margin-right: 4%
+    }
+
+
+    #col3 {
+        width: 100%;
+        float: left;
+        margin-top: 18px;
+    }
+
+    #cont3 {
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}
+
+
+
+@media (max-width: 767px) {
+
+    #headingwrap {
+        margin: 20px 0px 20px 0px;
+    }
+
+    #col1 {
+        width: 100%;
+        float: left;
+        margin-bottom: 18px;
+    }
+
+    #cont1 {
+        width: 94%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #col2 {
+        width: 100%;
+        float: left;
+        margin-bottom: 18px;
+    }
+
+    #cont2 {
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    #col3 {
+        width: 100%;
+        float: left;
+    }
+
+    #cont3 {
+        width: 96%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
 }
