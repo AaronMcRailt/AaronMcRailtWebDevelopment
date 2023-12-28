@@ -4,6 +4,38 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(122, 146, 214);
+}
+
+header {
+    background-color: rgb(159, 159, 159);
+}
+
+nav {
+    height: 80px;
+    width: 91.52%;
+    margin: 20px auto 0 auto;
+    background-color: black;
+}
+
+footer {
+    clear: both;
+    background-color: black;
+}
+
 #container {
     width: 100%;
+}
+
+
+
+
+
+
+
+
+.column {
+    float: left;
+    width: 33.33%;
 }
