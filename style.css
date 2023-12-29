@@ -8,20 +8,25 @@ body {
     background-color: rgb(122, 146, 214);
 }
 
-header {
-    background-color: rgb(159, 159, 159);
-}
+/*header {
+
+}*/
 
 nav {
-    height: 80px;
+    height: 75px;
     width: 91.52%;
-    margin: 20px auto 0 auto;
+    margin: 0 auto 0 auto;
     background-color: black;
 }
 
 footer {
     clear: both;
     background-color: black;
+    height: 50px;
+    width:91.52%;
+    position: fixed;
+    bottom: 0;
+    left: 4.24%;
 }
 
 #container {
@@ -35,7 +40,29 @@ footer {
 
 
 
-.column {
+.column-left {
     float: left;
     width: 33.33%;
+}
+
+.column-left div {
+    float: left;
+    width: 33.33%;
+    margin-left: 4.24%;
+}
+
+.column-mid {
+        float: left;
+        width: 33.33%;
+}
+
+.column-right {
+    float: left;
+    width: 33.33%;
+}
+
+.column-right div {
+    position: relative;
+    top: 30vh;
+    margin-right: 4.24%;
 }
