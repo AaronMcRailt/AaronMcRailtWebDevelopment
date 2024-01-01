@@ -9,6 +9,7 @@
 
 body {
     background-color: rgb(17, 17, 17);
+    overflow: hidden;
 }
 
 header {
@@ -31,6 +32,7 @@ nav div {
     width: 150px;
     line-height: 75px;
     margin: 0 0 0 30px;
+    border: red solid 1px;
     text-align: center;
 }
 
@@ -46,7 +48,6 @@ nav ul li {
     width: 150px;
     margin: 0 30px 0 30px;
     line-height: 75px;
-    text-align: center;
 }
 
 footer {
