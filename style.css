@@ -20,14 +20,14 @@ header {
     z-index: 10;
 }
 
-nav {
+#navbar {
     height: 75px;
     width: 91.666%;
     margin: 0 auto 0 auto;
     background-color: black;
 }
 
-nav div {
+#navbar div {
     float: left;
     height: 100%;
     width: 150px;
@@ -36,13 +36,13 @@ nav div {
     text-align: center;
 }
 
-nav ul {
+#navbar ul {
     list-style: none;
     float: right;
     height: 100%;
 }
 
-nav ul li {
+#navbar ul li {
     display: inline-block;
     height: 100%;
     width: 150px;
@@ -73,6 +73,14 @@ h1 span {
     margin: 0 auto 0 auto;
     background-color: black;
     height: 95%;
+}
+
+#scroller{
+    position:fixed;
+    width: 40px;
+    left: 95.833%;
+    top: 50vh;
+    border: #cf0a0a solid 1px;
 }
 
 #containerdesc {
